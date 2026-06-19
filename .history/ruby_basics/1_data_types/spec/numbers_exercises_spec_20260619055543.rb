@@ -67,22 +67,22 @@ RSpec.describe 'Numbers Exercises' do
 
   describe 'even exercise' do
 
-    it 'returns true when the number is even' do
+    xit 'returns true when the number is even' do
       expect(even?(6)).to eq(true)
     end
 
-    it 'returns false when the number is not even' do
+    xit 'returns false when the number is not even' do
       expect(even?(5)).to eq(false)
     end
   end
 
   describe 'odd exercise' do
 
-    it 'returns true when the number is odd' do
+    xit 'returns true when the number is odd' do
        expect(odd?(9)).to eq(true)
     end
 
-    it 'returns false when the number is not odd' do
+    xit 'returns false when the number is not odd' do
        expect(odd?(6)).to eq(false)
     end
 

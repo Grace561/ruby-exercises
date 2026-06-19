@@ -28,17 +28,15 @@ def float_division(a, b)
   # return the result of dividing a by b as a float, rather than an integer
 end
 
-def string_to_number(str)
-  str.to_i
+def string_to_number(string)
+  str.
   # return the result of converting a string into an integer
 end
 
-def even?(num)
-  num.even?
+def even?(number)
   # return true if the number is even (hint: use integer's even? method)
 end
 
-def odd?(num)
-  num.odd?
+def odd?(number)
   # return true if the number is odd (hint: use integer's odd? method)
 end

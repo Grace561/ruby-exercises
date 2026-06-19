@@ -56,33 +56,33 @@ RSpec.describe 'Numbers Exercises' do
 
   describe 'string to number exercise' do
 
-    it 'returns an integer from a string' do
+    xit 'returns an integer from a string' do
       expect(string_to_number('1')).to eq(1)
     end
 
-    it 'returns a negative integer from a string' do
+    xit 'returns a negative integer from a string' do
       expect(string_to_number('-5')).to eq(-5)
     end
   end
 
   describe 'even exercise' do
 
-    it 'returns true when the number is even' do
+    xit 'returns true when the number is even' do
       expect(even?(6)).to eq(true)
     end
 
-    it 'returns false when the number is not even' do
+    xit 'returns false when the number is not even' do
       expect(even?(5)).to eq(false)
     end
   end
 
   describe 'odd exercise' do
 
-    it 'returns true when the number is odd' do
+    xit 'returns true when the number is odd' do
        expect(odd?(9)).to eq(true)
     end
 
-    it 'returns false when the number is not odd' do
+    xit 'returns false when the number is not odd' do
        expect(odd?(6)).to eq(false)
     end
 

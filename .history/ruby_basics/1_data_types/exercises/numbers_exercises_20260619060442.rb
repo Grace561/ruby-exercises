@@ -39,6 +39,6 @@ def even?(num)
 end
 
 def odd?(num)
-  num.odd?
+  
   # return true if the number is odd (hint: use integer's odd? method)
 end

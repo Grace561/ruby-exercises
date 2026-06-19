@@ -34,11 +34,10 @@ def string_to_number(str)
 end
 
 def even?(num)
-  num.even?
+  n
   # return true if the number is even (hint: use integer's even? method)
 end
 
-def odd?(num)
-  num.odd?
+def odd?(number)
   # return true if the number is odd (hint: use integer's odd? method)
 end
